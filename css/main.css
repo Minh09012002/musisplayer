@@ -102,7 +102,7 @@ body{
 	text-shadow: 0 0 2px 2px rgba(255, 255, 255);
 }
 .progress{
-	width: 308px;
+	width: 316px;
 	margin-left: 32px;
 	margin-top: 20px;
 }
@@ -164,9 +164,15 @@ body{
 	color: #999;
 }
 /* chạy trên iphone 5 */
-@media (max-width:568px) {
+@media  (max-width:568px) {
 	.progress{
 		width: 260px;
+	}
+}
+
+@media (min-width: 375px) and (max-width : 667px){
+	.progress{
+		width: 316px;
 	}
 }
 
@@ -178,8 +184,15 @@ body{
 }
 
 /* chạy trên ipad */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
 	.progress{
 		width: 413px;
 	}
 }
+
+@media (min-width : 1024px) {
+	.progress{
+		width: 423px;
+	}
+}
+
